@@ -1,13 +1,13 @@
-# Based Smiles: Immutable USDC Rewards for Genuine Smiles 😊
+# Onchain Art Market: AI-Powered Graphics Marketplace on Base 🎨
 
-An innovative Web3 application that uses Openputer AI Oracle (inspired by AgentKit and built on Coinbase Development Platform) to analyze your smile and rewards genuine happiness with USDC cryptocurrency. 
+A decentralized marketplace for commissioning and creating AI-verified graphics, built on Base Network.
 
 ## How It Works
 
-1. 📸 Capture your smile through the app
-2. 🤖 Openputer AI Oracle analyzes your smile's authenticity (scored 1-5)
-3. ✨ Genuine smiles (score > 3) earn 0.001 USDC rewards
-4. 🌐 Winning smiles are stored on-chain and in our gallery
+1. 🎨 Create a bounty with ETH rewards and requirements
+2. 📸 Artists submit their work to active bounties
+3. 🤖 AI Oracle verifies submissions (scored 0-10)
+4. 💰 Winning submissions receive the bounty reward automatically
 
 ## Technical Stack
 
@@ -16,43 +16,48 @@ An innovative Web3 application that uses Openputer AI Oracle (inspired by AgentK
 - Tailwind CSS for styling
 - Privy for Web3 authentication
 - ethers.js for blockchain interactions
+- Supabase for submission storage
+
+### Blockchain
+- Base Network
+- AI Oracle for submission verification
+- Smart contracts for bounty management
+- Real-time event processing
 
 ## Features
 
 - 🔐 Web3 wallet authentication via Privy
-- 📸 Real-time camera feed with selfie mode
-- 🤖 Decentralized AI smile analysis via Openputer
-- 💰 Automatic USDC rewards for genuine smiles
-- 👥 Social interactions with "smile back" feature
-- 🖼️ Persistent gallery for winning smiles
+- 💰 Create bounties with ETH rewards
+- 🎨 Submit artwork to active bounties
+- 🤖 Automated AI verification of submissions
+- 📊 Real-time submission status tracking
+- 🖼️ Persistent gallery of submissions
 - 📱 Responsive design for all devices
-- 🤓 Optional Nouns-style filter for photos
-- 💝 Community funding mechanism for USDC rewards
 
 ## Smart Contract Features
 
-- Decentralized smile analysis via Openputer AI Oracle (built on Coinbase Development Platform)
+- Decentralized submission verification via AI Oracle
 - Real-time reward distribution
 - Transparent scoring system
-- Gas-optimized operations on Base Network
+- Gas-optimized operations
+- Event-driven updates
 
 ## Technical Details
 
 ### Image Processing
 - Automatic compression for optimal storage
-- Maximum dimensions: 800x600
 - JPEG optimization with quality preservation
-- Mirrored selfie view for natural interaction
+- Secure image storage via Supabase
 
 ### Blockchain Integration
 - Base Network compatibility
-- Openputer AI Oracle (inspired by AgentKit) for decentralized smile analysis
-- Built using Coinbase Development Platform
+- AI Oracle for submission verification
 - Gas-efficient smart contract design
 - Real-time event processing
+- Automatic reward distribution
 
 ### Security
-- Secure wallet authentication
+- Secure wallet authentication via Privy
 - Protected image storage
 - Rate limiting on submissions
 - Sybil resistance through wallet verification
@@ -67,4 +72,4 @@ MIT
 
 ---
 
-Built with ❤️ and 😊 on Base Network, powered by Openputer AI Oracle
+Built with ❤️ and 🎨 on Base Network
