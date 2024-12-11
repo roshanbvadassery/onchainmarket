@@ -393,7 +393,7 @@ const Market = () => {
                 textShadow: '2px 2px 4px rgba(0,0,0,0.5)',
                 WebkitTextStroke: '1px #B8860B'
               }}>
-            Onchain Art Market 🎨
+            Onchain Market 🎨
           </h1>
           <p className="text-lg font-semibold text-[#FFE4B5] text-center bg-[#5C2E0B] rounded-xl p-3"
              style={{
